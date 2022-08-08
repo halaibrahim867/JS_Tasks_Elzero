@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1 of week 3</title>
+</head>
+
+<body>
+    <script>
+        let a = 10;
+        let b = "20";
+        let c = 80;
+
+        console.log(++a + +b++ + +c++ - +a++);
+        /*
+          [++a] 
+            value:11
+            explain:increment the value and then print it 
+          [+]
+            explain :add two number 
+          [+b++]
+            value:21
+            + : convert string to number
+            explain: print variable and then increment the value
+          [+c++]
+            value:
+            + : convert string to number
+            explain: print variable and then increment the value
+          [+a++]
+            value:11;
+            + : convert string to number
+            explain: print variable and then increment the value
+           Total : 11+ 20+ 80 -11
+        */
+        console.log(++a + -b + +c++ - -a++ + +a);
+        /*
+          [++a]
+            value:13
+            explain:increment the value and then print it 
+          [-b]
+            value: -21
+            explain:convert string to negative number
+          [+c++]
+            value:81
+            [+]
+            explain:convert string to number
+            [c++]
+            print value and then increment it
+          [-a++]
+            value:-13
+            [-]
+               explain:convert string to negative number
+            [a++]
+               print value and then increment it
+          [+a]
+            value:14
+            explain:convert string to number
+           
+          Total:13 +(-21) +81 - (-13) +14
+        */
+        console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
+        /*
+          [--c]:
+            value: 81 
+            explain: decrement value and print it 
+          [+b]
+            value:21
+            explain:convert string to number
+          [--a]
+            value:13
+            explain: decrement value and print it 
+          [*]
+            explain: multiply two numbers
+          [+b++]
+            value:21
+            [+] 
+            explain:convert string to number
+            [b++] 
+              print value and then increment it
+          [+true]
+            value:1
+             explain:convert string to number
+          81 +21 + 13 *21 -22*13 +12 -
+
+        */
+    </script>
+</body>
+
+</html>
