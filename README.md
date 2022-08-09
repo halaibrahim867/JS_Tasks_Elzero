@@ -17,5 +17,12 @@ Week 1
      3-ECMAScript=> JavaScript is a subset of ECMAScript. 
                     ECMAScript is the scripting language standardized by Ecma International in the ECMA-262 specification.
                     
-     4-            
-                    
+     4- Scripting Language =>All scripting languages are programming languages.
+                             The scripting language is basically a language where instructions are written for a 
+                             run time environment. They do not require the compilation step and are rather interpreted.
+                             https://www.geeksforgeeks.org/
+                             
+     5-Chrome Dev Tools =>is a set of APIs that allows developers to communicate with Chromium-based browsers, including Google Chrome
+                          
+                
+                         
