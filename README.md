@@ -25,4 +25,19 @@ Week 1
      5-Chrome Dev Tools =>is a set of APIs that allows developers to communicate with Chromium-based browsers, including Google Chrome
                           
                 
-                         
+Week2 
+  Keywords:
+     1-Loosely Typed Language => is a programming language that does not require a variable to be defined
+     
+     
+     2-Strongly Typed Language => is one in which each type of data, such as integers, characters, hexadecimals and packed decimals
+                                  is predefined as part of the programming language, and all constants or variables defined for a given
+                                  program must be described with one of the data types.
+                                  https://www.techtarget.com/whatis/definition/strongly-typed
+                                  
+     3- Character Escape Sequences => Character combinations consisting of a backslash (\) followed by a letter or by a combination of digits are called
+                                       "escape sequences  
+                                      https://docs.microsoft.com/en-us/cpp/c-language/escape-sequences?view=msvc-170
+                                      
+                           
+                                  
