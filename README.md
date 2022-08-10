@@ -39,5 +39,40 @@ Week2
                                        "escape sequences  
                                       https://docs.microsoft.com/en-us/cpp/c-language/escape-sequences?view=msvc-170
                                       
-                           
-                                  
+                          
+Week3 
+  Keywords:
+    1-JavaScript Defer Attribute => The defer property can only have a true value or a false value, we can conclude that it is a boolean attribute.
+                                    It is an attribute that is used only for external scripts. 
+                                    If this property is used, it defines that the browser should not wait for the script to load 
+                                    https://linuxhint.com/javascript-defer-attribute/
+                                    
+    
+                                    
+    2-JavaScript Constructor => A constructor enables you to provide any custom initialization that must be done before any other methods can be
+                                called on an instantiated object.                                
+                                https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+                                    
+    3-JavaScript Unary Use Cases => Unary operators work on one value                                 
+                                    https://www.javascripttutorial.net/javascript-unary-operators/
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
