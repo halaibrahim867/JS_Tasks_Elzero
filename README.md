@@ -56,7 +56,10 @@ Week3
     3-JavaScript Unary Use Cases => Unary operators work on one value                                 
                                     https://www.javascripttutorial.net/javascript-unary-operators/
                                     
-                                    
+Week4
+  Keywords:
+    1-Double Precision=>https://www.w3schools.com/js/js_numbers.asp#:~:text=JavaScript%20numbers%20are%20always%20stored%20as%20double%20precision
+                      ,and%20the%20sign%20in%20bit%2063%3A%20Integer%20Precision
                                     
                                     
                                     
