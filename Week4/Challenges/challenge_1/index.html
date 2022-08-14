@@ -8,12 +8,24 @@
 </head>
 <body>
     <script>
-        let a = "Elzero Web School";
-        console.log(a.charAt(2)+a.slice(3,7));
-        console.log(a.slice(-4,-3).toUpperCase().repeat(8));
-        console.log(a.split(" ",1));
-        console.log(`${a.substr(0,6)} ${a.substr(11)}`)
-        console.log(a.charAt(0).toLowerCase()+a.slice(1,-1).toUpperCase()+a.slice(-1).toLowerCase());
+        let a = 100;
+        let b = 2_00.5;
+        let c = 1e2;
+        let d = 2.4;
+
+        console.log(Math.round(Math.min(a,b ,c ,d)) );
+        
+        console.log( Math.trunc( (Math.pow(a ,Math.ceil(d))+ Math.pow(Math.floor(d) , Math.ceil(d)) )/ a ) ); // 10000
+
+        console.log(Math.floor(d)); 
+        console.log(Math.trunc(d)); 
+
+        console.log(Math.round(d)); 
+        console.log(parseInt(d));
+
+        // Use Variables b + d To Get This Valus
+        console.log((((Math.floor(b) + a ) - a ) /3 ).toString() ); // 66.67 => String
+        console.log( Math.round((( Math.floor(b) + a ) - a ) /3  )); // 67 => Number
     </script>
 </body>
 </html>
