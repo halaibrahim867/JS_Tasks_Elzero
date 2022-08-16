@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 of week8</title>
+</head>
+<body>
+    <script>
+        let day= "  tuesday  ".trim();
+
+        switch(day.charAt(0).toUpperCase()+day.slice(1)){
+            case "Friday" :
+            case "Saturday" :
+            case "Sunday" :
+                document.write("No Appointments Available");
+                break;
+            case "Monday":
+            case "Thursday":
+                document.write("From 10:00 AM To 5:00 PM");
+                break;
+            case "Tuesday" :
+                document.write("From 10:00 AM To 6:00 PM");
+                break;
+            default :
+                document.write("Its Not A Valid Day");
+                break;
+
+        }
+    </script>
+</body>
+</html>
