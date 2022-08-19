@@ -58,9 +58,16 @@ Week3
                                     
 Week4
   Keywords:
-    1-Double Precision=> https://www.w3schools.com/js/js_numbers.asp#:~:text=JavaScript%20numbers%20are%20always%20stored%20as%20double%20precision,and%20the%20sign%20in%20bit%2063%3A%20Integer%20Precision
+    ****1-Double Precision=> https://www.w3schools.com/js/js_numbers.asp#:~:text=JavaScript%20numbers%20are%20always%20stored%20as%20double%20precision,and%20the%20sign%20in%20bit%2063%3A%20Integer%20Precision
                                     
                                     
+                                    
+Week5 
+  Keywords:
+      1-**Logical Or** => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR
+      2-**JavaScript Operators** => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+       
                                     
                                     
                                     
