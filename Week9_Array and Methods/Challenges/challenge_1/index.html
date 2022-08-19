@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge  of week 9</title>
+</head>
+<body>
+    <script>
+        let zero = 0;
+        let counter = 3;
+        let my = ["Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer"];
+
+         my=(my.slice(zero ,counter).concat("Osama")).reverse();
+    
+        console.log(my); // ["Osama", "Elham", "Mazero", "Ahmed"];
+
+        console.log(my.slice(my.length - counter,counter)); // [Elham , Mazero];
+
+        my2 =my.slice(my.length - counter,counter); 
+        len =my2.length; // 2
+
+        my3= (my2[zero].slice(zero,len).concat(my2[counter -len].slice(len))).split(" ");
+        console.log(my3); // ['Elzero']
+
+        
+        len2 =(my2[zero].slice(zero,len).concat(my2[counter -len].slice(len))).length;
+        
+        console.log( (my3[0].slice(len2 -len, len+ counter).concat(my3[0].slice(len +counter).toString().toUpperCase()).split(" ") ) );
+
+
+         
+    </script>
+</body>
+</html>
