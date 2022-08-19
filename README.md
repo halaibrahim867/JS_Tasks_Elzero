@@ -67,7 +67,11 @@ Week5
       1-**Logical Or** => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR
       2-**JavaScript Operators** => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
-       
+
+Week6
+  Keywords:
+     1-JavaScript Array Methods =>https://www.w3schools.com/js/js_array_methods.asp
+     2-JavaScript Array Data Type =>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
                                     
                                     
                                     
