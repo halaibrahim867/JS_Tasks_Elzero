@@ -73,7 +73,11 @@ Week6
      1-JavaScript Array Methods =>https://www.w3schools.com/js/js_array_methods.asp
      2-JavaScript Array Data Type =>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
                                     
-                                    
+       
+Week7
+  Keywords:
+     1-JavaScript Loop Secrets => https://blog.alexdevero.com/javascript-loops/
+   
                                     
                                     
                                     
