@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 of week 10 for loop</title>
+</head>
+<body>
+    <script>
+        let start = 1;
+        let end = 6;
+        let breaker = 2;
+        let min=end -breaker;
+        
+        for(start ;start <= end; start++){
+            console.log(start);
+            for(;breaker <= min ;breaker +=breaker ){
+                console.log(`--${breaker}`);
+            }
+            breaker =2 ;
+        }
+    </script>
+</body>
+</html>
