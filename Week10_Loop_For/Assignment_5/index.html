@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 of week 10 for loop</title>
+</head>
+<body>
+    <script>
+        let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
+        let letter = "a";
+
+        let j=letter.length;
+        for(let i=0;i<friends.length ;i++ ){
+            if(friends[i].startsWith(letter.toUpperCase())){
+                continue;
+            }
+            else{
+                console.log(`"${j}  => ${friends[i]}"`);
+                j++;
+            }
+        }
+    
+    </script>
+</body>
+</html>
