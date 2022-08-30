@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 pf week 11</title>
+</head>
+<body>
+    <script>
+        function sayHello(theName, theGender) {
+            if(theGender == "Male"){
+                console.log(`Hello Mr ${theName}`);
+            }
+            else if(theGender == "Female"){
+                console.log(`Hello Miss ${theName}`);
+            }
+            else{
+                console.log(`Hello ${theName}`);
+            }
+        }
+
+      
+        sayHello("Osama", "Male"); // "Hello Mr Osama"
+        sayHello("Eman", "Female"); // "Hello Miss Eman"
+        sayHello("Sameh"); // "Hello Sameh"
+    </script>
+</body>
+</html>
