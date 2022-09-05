@@ -79,6 +79,11 @@ Week7
      1-JavaScript Loop Secrets => https://blog.alexdevero.com/javascript-loops/
    
                                     
+Week8
+  Keywords:
+    1-JavaScript Function => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+    2-JavaScript Function Currying => https://javascript.info/currying-partials
+    
                                     
                                     
                                     
