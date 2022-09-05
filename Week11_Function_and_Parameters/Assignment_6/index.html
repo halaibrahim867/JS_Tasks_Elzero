@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 of week 11</title>
+</head>
+<body>
+    <script>
+        function multiply(...nums){
+            let result =1;
+            for(let i=0;i <nums.length ;i++){
+                if(typeof nums[i] == "string"){
+                    continue;
+                }
+                else if(nums[i] == parseFloat(nums[i])){
+                   nums[i]= parseInt(nums[i]);
+                   
+                }
+                result *= nums[i];
+            }
+            console.log(result);
+            
+        }
+        multiply(10, 20); // 200
+        multiply("A", 10, 30); // 300
+        multiply(100.5, 10, "B"); // 1000
+    </script>
+</body>
+</html>
