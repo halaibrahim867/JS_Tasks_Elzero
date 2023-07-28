@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let myAdmins=["Ahmed","Osama","Sayed","Stop","Samera"];
+        let myEmployees=["Amgad","Samah","Ameer","Omar","Othman","Amany","Samia"];
+
+        let count=0;
+        for(let i=0;i<myAdmins.length;i++){
+            if(myAdmins[i] == "Stop"){
+                break;
+            }else{
+                 count++;
+            }
+        }
+        document.write(`<div>We have ${count} Adimns </div>`);
+
+        document.write(`<hr>`);
+
+        let teamnum=0;
+        let countemp=0;
+        for(let i=0;i<myAdmins.length;i++){
+            if(myAdmins[i] == "Stop"){
+                break;
+            }else{
+                document.write(`The Admin for Team ${++teamnum} Is ${myAdmins[i]}`)
+                 document.write(`<h3>Team Members</h3>`);
+                 for(let j=0;j<myEmployees.length;j++){
+                    
+                   
+                    if(myAdmins[i][0] == myEmployees[j][0]){
+                        document.write(`${++countemp} - ${myEmployees[j]} <br><br>`);
+                    }
+                 }
+                 
+            }
+            document.write(`<hr>`);
+        }
+
+    </script>
+</body>
+</html>
